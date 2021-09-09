@@ -1,3 +1,7 @@
+body>h1 {
+  color: brown;
+}
+
 #sliders {
   height: 400px;
   width: 60%;
@@ -36,7 +40,8 @@ img {
   cursor: pointer;
 }
 
-.prev, .next {
+.prev,
+.next {
   background-color: transparent;
   padding: 8px 10px;
   color: #fff;
@@ -59,6 +64,7 @@ img {
   .justify-content-around.align-items-center.mt-3.gallery-header.mb-2 {
     flex-direction: column;
   }
+
   #sliders {
     height: 300px;
     width: 90%;
